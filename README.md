@@ -113,6 +113,12 @@ Si querés ejecutar este proyecto en tu entorno local, seguí estos pasos:
 
 ---
 
+## 🚀 Versión desplegada
+
+**Link**: [Casaca Hub](https://maximilianocalahorra.github.io/casaca-hub)
+
+---
+
 ## 👤 Autor
 
 - **Maximiliano Calahorra**
