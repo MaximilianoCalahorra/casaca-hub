@@ -1,0 +1,151 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+  padding-bottom: 2rem;
+}
+
+.hero {
+  background: linear-gradient(135deg, var(--color-primary) 0%, #0a1f18 100%);
+  color: var(--color-white);
+  padding: 4rem 2rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.heroTitle {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.heroSub {
+  font-size: 1.1rem;
+  color: #e5e7eb;
+  margin-bottom: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ctaButton {
+  display: inline-block;
+  background-color: var(--color-white);
+  color: var(--color-primary);
+  padding: 0.85rem 1.75rem;
+  border-radius: 8px;
+  font-weight: 700;
+  text-decoration: none;
+  transition:
+    transform 0.2s,
+    background-color 0.2s;
+}
+
+.ctaButton:hover {
+  transform: translateY(-2px);
+  background-color: #f3f4f6;
+}
+
+.leagueSection {
+  text-align: center;
+}
+
+.sectionTitle {
+  font-size: 1.5rem;
+  color: var(--color-text);
+  margin-bottom: 1.25rem;
+  font-weight: 700;
+}
+
+.leagueGrid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 0.6rem;
+  width: 100%;
+}
+
+.leagueCard {
+  background-color: var(--color-white);
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 0.75rem 0.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s,
+    border-color 0.2s;
+}
+
+.leagueCard:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+  border-color: var(--color-primary);
+}
+
+.leagueLogo {
+  width: 38px;
+  height: 38px;
+  object-fit: contain;
+}
+
+.leagueName {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--color-text);
+  text-align: center;
+  line-height: 1.1;
+}
+
+@media (max-width: 900px) {
+  .leagueGrid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .leagueGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.benefitsSection {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.benefitCard {
+  background-color: var(--color-white);
+  padding: 1.75rem;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.icon {
+  font-size: 2.2rem;
+  margin-bottom: 0.25rem;
+}
+
+.benefitCard h3 {
+  font-size: 1.1rem;
+  color: var(--color-text);
+  font-weight: 700;
+}
+
+.benefitCard p {
+  font-size: 0.88rem;
+  color: #6b7280;
+  line-height: 1.4;
+}

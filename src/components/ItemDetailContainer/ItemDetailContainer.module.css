@@ -1,0 +1,30 @@
+.container {
+  padding: 2rem 1rem;
+  width: 100%;
+}
+
+.btnReturn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2563eb;
+  color: #ffffff;
+  padding: 0.75rem 1.75rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition:
+    background-color 0.2s ease,
+    transform 0.1s ease;
+  width: fit-content;
+}
+
+.btnReturn:hover {
+  background-color: #1d4ed8;
+}
+
+.topActions {
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
