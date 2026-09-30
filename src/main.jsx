@@ -7,7 +7,7 @@ import { ScrollToTop } from "./components/ScrollToTop/ScrollToTop.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/casaca-hub">
       <ScrollToTop />
       <App />
     </BrowserRouter>
