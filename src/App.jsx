@@ -20,7 +20,7 @@ export function App() {
 
   // Cargar productos:
   useEffect(() => {
-    fetch("/data/productos.json")
+    fetch(`${import.meta.env.BASE_URL}/data/productos.json`)
       .then((respuesta) => {
         if (!respuesta.ok) {
           throw new Error("No se pudo cargar la información de los productos");
@@ -36,7 +36,7 @@ export function App() {
 
   // Carga de competiciones:
   useEffect(() => {
-    fetch("/data/competiciones.json")
+    fetch(`${import.meta.env.BASE_URL}/data/competiciones.json`)
       .then((respuesta) => {
         if (!respuesta.ok) {
           throw new Error(

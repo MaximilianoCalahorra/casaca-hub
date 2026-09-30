@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import styles from "./Header.module.css";
+import logoImg from "../../assets/logo.png";
 
 export function Header({ cartCount = 0 }) {
   // Menú abierto:
@@ -19,11 +20,7 @@ export function Header({ cartCount = 0 }) {
   return (
     <header className={styles.header}>
       <Link to="/" className={styles.logoLink} onClick={cerrarMenu}>
-        <img
-          src="/src/assets/logo.png"
-          alt="Casaca Hub"
-          className={styles.logoImage}
-        />
+        <img src={logoImg} alt="Casaca Hub" className={styles.logoImage} />
       </Link>
       <button
         className={`${styles.hamburger} ${menuAbierto ? styles.active : ""}`}
