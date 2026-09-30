@@ -4,7 +4,7 @@ export function Contacto({ nombre, email, puesto, foto }) {
   return (
     <article className={styles.miniCard}>
       <img
-        src={`${import.meta.env.BASE_URL}/${foto}`.replace(/\/+/g, "/")}
+        src={`${import.meta.env.BASE_URL.replace(/\/$/, "")}/${foto.replace(/^\//, "")}`}
         alt={nombre}
         className={styles.avatar}
       />
