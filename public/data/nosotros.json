@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "nombre": "Pablo González",
+    "email": "pablogonzalez@casacahub.com",
+    "puesto": "Fundador y director ejecutivo",
+    "foto": "/images/team/avatar1.png"
+  },
+  {
+    "id": 2,
+    "nombre": "Martina López",
+    "email": "martinalopez@casacahub.com",
+    "puesto": "Directora de licencias y alianzas deportivas",
+    "foto": "/images/team/avatar2.png"
+  },
+  {
+    "id": 3,
+    "nombre": "Pilar Gutiérrez",
+    "email": "pilargutierrez@casacahub.com",
+    "puesto": "Directora de atención al cliente y experiencia de compra",
+    "foto": "/images/team/avatar3.png"
+  },
+  {
+    "id": 4,
+    "nombre": "Leonel Martínez",
+    "email": "leonelmartinez@casacahub.com",
+    "puesto": "Gestor de operaciones y logística",
+    "foto": "/images/team/avatar4.png"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "premier_league",
+    "nombre": "Premier League",
+    "logo": "https://images.weserv.nl/?url=https://www.footballkitarchive.com/static/logos/MgqgwecsOFDu0Ok/premier-league-2016-logo.png"
+  },
+  {
+    "id": "la_liga",
+    "nombre": "La Liga",
+    "logo": "https://images.weserv.nl/?url=https://www.footballkitarchive.com/static/logos/XZNxXbAL6wpbLe4/la-liga-2023-logo.png"
+  },
+  {
+    "id": "serie_a",
+    "nombre": "Serie A",
+    "logo": "https://images.weserv.nl/?url=https://www.footballkitarchive.com/static/logos/OkpD9NXwslFeGHA/serie-a-2024-logo.png"
+  },
+  {
+    "id": "bundesliga",
+    "nombre": "Bundesliga",
+    "logo": "https://images.weserv.nl/?url=https://www.footballkitarchive.com/static/logos/RdLRZWpQOgiAZbt/bundesliga-2017-logo.png"
+  },
+  {
+    "id": "ligue_1",
+    "nombre": "Ligue 1",
+    "logo": "https://images.weserv.nl/?url=https://www.footballkitarchive.com/static/logos/ceZMw5LDUclgW9a/ligue-1-2024-logo.png"
+  },
+  {
+    "id": "lpf",
+    "nombre": "Liga Profesional",
+    "logo": "https://images.weserv.nl/?url=https://www.footballkitarchive.com/static/logos/LibxnuBpSsyh2gc/primera-division-argentina-2026-logo.png"
+  },
+  {
+    "id": "brasileirao",
+    "nombre": "Brasileirão",
+    "logo": "https://images.weserv.nl/?url=https://www.footballkitarchive.com/static/logos/1Y12DbmWcfsUiCb/brasileiro-serie-a-2024-logo.png"
+  },
+  {
+    "id": "selecciones",
+    "nombre": "Selecciones",
+    "logo": "https://images.weserv.nl/?url=https://www.footballkitarchive.com/static/logos/dQescgDfkb8MgA7/international-2009-logo.png"
+  }
+]
